@@ -72,8 +72,7 @@ def image_processing(context):
     image = yield context.call_activity("hello", "Tokyo")
     image = yield context.call_activity("hello", "London")
 
-    return [result1, result2, result3]
-
+    return image
 
 
 
